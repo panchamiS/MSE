@@ -1,13 +1,13 @@
 #import<Foundation/Foundation.h>
-#import "lab2.h"
+#import "emp.h"
 
 int main(int argc, char* argv[])
 {
-	Arithmetic* ar=[[Arithmetic alloc]init];//creating an object of the class Arithmetic
-	[ar Add:10 andarg:5];//function call
-	[ar Sub:10 andarg:5];
-	[ar Mul:10 andarg:5];
-	[ar Div:10 andarg:0];
-	[ar release];//releasing the memory
+	Employee* em=[[Employee alloc]init];
+	[em SetName:"pnc"];
+	[em SetDept:"ise"];
+	[em SetEid:"001"];
+	[em print];
+	[em release];
 	return 0;
 }
