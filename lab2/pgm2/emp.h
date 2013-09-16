@@ -1,5 +1,4 @@
 #import<Foundation/Foundation.h>
-//Employee class, instance objects and methods
 @interface Employee:NSObject
 {
 	char name[20];

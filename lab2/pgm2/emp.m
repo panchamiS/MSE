@@ -1,5 +1,5 @@
 #import "emp.h"
-//implementation of the functions declared in "emp.h"
+
 @implementation Employee
 
 -(void)SetName:(char*)nm
